@@ -19,20 +19,20 @@ function Navbar() {
       <div>
         <ul className="hidden md:flex items-center gap-6">
           <Link href="/">
-            <li className="ml-10 text-sm uppercase transition-transform transform hover:-translate-x-0.5 hover:-translate-y-0.5 hover:text-[#475f7e]">About</li>
+            <li className="ml-10 text-sm uppercase transition-transform transform hover:-translate-x-0.5 hover:-translate-y-0.5 hover:text-[#1369ab]">About</li>
           </Link>
           {/* <Link href="/">
             <li className="ml-10 text-sm uppercase transition-transform transform hover:translate-x-0.5 hover:-translate-y-0.5">Experience</li>
           </Link> */}
           <Link href="/">
-            <li className="ml-10 text-sm uppercase transition-transform transform hover:-translate-x-0.5 hover:-translate-y-0.5 hover:text-[#475f7e]">Work</li>
+            <li className="ml-10 text-sm uppercase transition-transform transform hover:-translate-x-0.5 hover:-translate-y-0.5 hover:text-[#1369ab]">Work</li>
           </Link>
           <Link href="/">
-            <li className="ml-10 mr-10 text-sm uppercase transition-transform transform hover:-translate-x-0.5 hover:-translate-y-0.5 hover:text-[#475f7e]">Contact</li>
+            <li className="ml-10 mr-10 text-sm uppercase transition-transform transform hover:-translate-x-0.5 hover:-translate-y-0.5 hover:text-[#1369ab]">Contact</li>
           </Link>
           <Link href="/" className="">
           <div className="bg-white border rounded">
-            <li className=" px-4 py-2 bg-[#ecf0f3] border rounded border-white text-sm uppercase transition-transform,colors transform hover:-translate-x-1 hover:-translate-y-1 hover:text-[#475f7e] duration-200">Resume</li>
+            <li className=" px-4 py-2 bg-[#ecf0f3] border rounded border-white text-sm uppercase transition-transform,colors transform hover:-translate-x-1 hover:-translate-y-1 hover:text-[#1369ab] duration-200">Resume</li>
             </div> 
           </Link>
         </ul>
@@ -55,13 +55,13 @@ function Navbar() {
 <div className="py-4 flex flex-col">
               <ul className="uppercase">
                 <Link href='/'>
-                <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#475f7e]">About</li></Link>
+                <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#1369ab]">About</li></Link>
                 <Link href='/'>
-                <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#475f7e]">Work</li></Link>
+                <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#1369ab]">Work</li></Link>
                 <Link href='/'>
-                <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#475f7e]">Contact</li></Link>
+                <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#1369ab]">Contact</li></Link>
                 <Link href='/'>
-                <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#475f7e]">Resume</li></Link>
+                <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#1369ab]">Resume</li></Link>
               </ul>
               <div className="pt-40">
                 <p className="uppercase tracking-widest text text-[#1369ab]">Contact me</p>
