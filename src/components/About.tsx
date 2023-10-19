@@ -12,8 +12,8 @@ function About() {
             My interest in web development started in 2019 but it was put on
             hold until the time was right for me to change my career path. In
             2021-2022 I took a deep dive in learning to write code and etc... </p>
-            <p>Fast-forward to today, and I’ve finished my courses, made <a className="text-[#5e98ce] sliding" href="https://armandas-online-1-shop.netlify.app/">a test online shop website</a>
-            , made some <a className="text-[#5e98ce] sliding" href="https://github.com/ArmandasG?tab=repositories">starter shells</a> for learning new
+            <p>Fast-forward to today, and I’ve finished my courses, made <a className="text-[#5e98ce] sliding font-semibold" href="https://armandas-online-1-shop.netlify.app/">a test online shop website</a>
+            , made some <a className="text-[#5e98ce] sliding font-semibold" href="https://github.com/ArmandasG?tab=repositories">starter shells</a> for learning new
             technologies. My main focus these days is learning as much as
             possible about the web/computers/science beneath it and getting
             hired to start my journey as an official frontend developer. </p> <p> I will

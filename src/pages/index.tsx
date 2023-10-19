@@ -4,6 +4,8 @@ import Navbar from '../components/Navbar'
 import Main from '@/components/Main';
 import About from '@/components/About';
 import Technologies from '@/components/Technologies';
+import Projects from '@/components/Projects';
+import LearningProjects from '@/components/LearningProjects';
 
 
 export default function Home() {
@@ -18,6 +20,8 @@ export default function Home() {
     <Main />
     <About />
     <Technologies />
+    <Projects />
+    {/* <LearningProjects /> */}
   </div>
   );
   
