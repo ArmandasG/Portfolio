@@ -1,33 +1,47 @@
 import Image from "next/image";
 import Link from "next/link";
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from 'react-icons/ai'
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 
 function Navbar() {
   const [nav, setNav] = useState(false);
+  const [shadow, setShadow] = useState(false);
 
   const handleNav = () => {
     setNav(!nav)
   }
+
+useEffect(() => {
+const handleShadow = () => {
+  if (window.scrollY >= 90) {
+    setShadow(true)
+  } else {
+    setShadow(false)
+  }
+}
+window.addEventListener('scroll', handleShadow)
+}, [])
+
   return (
-    <div className="fixed w-full h-34 shadow-xl z-[100]">
+    <div className={shadow ? 'fixed w-full h-34 bg-[#ecf0f3] shadow-xl z-[100]' : 'fixed w-full h-34 z-[100]'}>
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+        <Link href='/'>
         <Image src="/assets/navLogo.png" alt="logo" width='125' height='50' />
-      
+        </Link>
       <div>
         <ul className="hidden md:flex items-center gap-6">
-          <Link href="/">
+          <Link href="/#about">
             <li className="ml-10 text-sm uppercase transition-transform transform hover:-translate-x-0.5 hover:-translate-y-0.5 hover:text-[#1369ab]">About</li>
           </Link>
           {/* <Link href="/">
             <li className="ml-10 text-sm uppercase transition-transform transform hover:translate-x-0.5 hover:-translate-y-0.5">Experience</li>
           </Link> */}
-          <Link href="/">
+          <Link href="/#work">
             <li className="ml-10 text-sm uppercase transition-transform transform hover:-translate-x-0.5 hover:-translate-y-0.5 hover:text-[#1369ab]">Work</li>
           </Link>
-          <Link href="/">
+          <Link href="/#contact">
             <li className="ml-10 mr-10 text-sm uppercase transition-transform transform hover:-translate-x-0.5 hover:-translate-y-0.5 hover:text-[#1369ab]">Contact</li>
           </Link>
           <Link href="/resume.pdf" className="">
@@ -54,29 +68,30 @@ function Navbar() {
 </div>
 <div className="py-4 flex flex-col">
               <ul className="uppercase">
-                <Link href='/'>
+                <Link href='/#about'>
                 <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#1369ab]">About</li></Link>
-                <Link href='/'>
+                <Link href='/#work'>
                 <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#1369ab]">Work</li></Link>
-                <Link href='/'>
+                <Link href='/#contact'>
                 <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#1369ab]">Contact</li></Link>
                 <Link href='/resume.pdf'>
                 <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#1369ab]">Resume</li></Link>
               </ul>
               <div className="pt-40">
                 <p className="uppercase tracking-widest text text-[#1369ab]">Contact me</p>
-                <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
+                <div className="flex items-center gap-10 my-4 w-full sm:w-[80%]">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <Link href='https://www.linkedin.com/in/armandas-genys/'>
                   <FaLinkedinIn/>
+                  </Link>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <FaGithub/>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <a href="mailto:genysarmandas@gmail.com">
                   <AiOutlineMail/>
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <BsFillPersonLinesFill/>
+                  </a>
                   </div>
                 </div>
               </div>
