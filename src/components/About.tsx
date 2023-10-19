@@ -1,4 +1,6 @@
 import React from "react";
+import myProfilePicture from '../../public/assets/myProfilePicture.jpg'
+import Image from "next/image";
 
 function About() {
   return (
@@ -25,7 +27,7 @@ function About() {
         <div className="wrapper">
             <div>
                 <div>
-        <img className="rounded-xl max-h-[500px] max-w-auto m-auto" src="/assets/myProfilePicture.jpg" alt="myProfilePicture" />
+        <Image className="rounded-xl max-h-auto max-w-[400px] m-auto" src={myProfilePicture} alt="myProfilePicture" />
         </div>
         </div>
         </div>

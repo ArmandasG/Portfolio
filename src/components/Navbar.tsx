@@ -30,7 +30,7 @@ function Navbar() {
           <Link href="/">
             <li className="ml-10 mr-10 text-sm uppercase transition-transform transform hover:-translate-x-0.5 hover:-translate-y-0.5 hover:text-[#1369ab]">Contact</li>
           </Link>
-          <Link href="/" className="">
+          <Link href="/resume.pdf" className="">
           <div className="bg-white border rounded">
             <li className=" px-4 py-2 bg-[#ecf0f3] border rounded border-white text-sm uppercase transition-transform,colors transform hover:-translate-x-1 hover:-translate-y-1 hover:text-[#1369ab] duration-200">Resume</li>
             </div> 
@@ -60,7 +60,7 @@ function Navbar() {
                 <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#1369ab]">Work</li></Link>
                 <Link href='/'>
                 <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#1369ab]">Contact</li></Link>
-                <Link href='/'>
+                <Link href='/resume.pdf'>
                 <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#1369ab]">Resume</li></Link>
               </ul>
               <div className="pt-40">
