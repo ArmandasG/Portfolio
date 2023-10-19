@@ -3,11 +3,11 @@ import React from 'react'
 
 function Technologies() {
   return (
-    <div className='w-full h-screen'>
+    <div className='w-full lg:h-screen'>
         <div className='max-w-[1240px] m-auto flex flex-col justify-center h-full'>
         <p className='text-xl tracking-widest uppercase'>Technologies</p>
         <h2 className='py-4'>What I Can Do</h2>
-        <div className='grid md:grid-cols-3 lg:grid-col-3 gap-8'>
+        <div className='grid md:grid-cols-3 lg:grid-cols-3 gap-0 md:gap-8'>
 
 
     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>

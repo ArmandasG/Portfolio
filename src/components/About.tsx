@@ -24,13 +24,11 @@ function About() {
           </p>
         </div>
         </div>
-        <div className="wrapper">
-            <div>
-                <div>
-        <Image className="rounded-xl max-h-auto max-w-[400px] m-auto" src={myProfilePicture} alt="myProfilePicture" />
+
+                <div className="m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in-out duration-300 w-[68%] h-[98%]">
+        <Image className="rounded-xl max-h-auto md:max-w-[400px] m-auto" src={myProfilePicture} alt="myProfilePicture" />
         </div>
-        </div>
-        </div>
+
       </div>
     </div>
   );
