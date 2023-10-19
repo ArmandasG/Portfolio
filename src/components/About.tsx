@@ -18,9 +18,9 @@ function About() {
             , made some <a className="text-[#5e98ce] sliding font-semibold" href="https://github.com/ArmandasG?tab=repositories">starter shells</a> for learning new
             technologies. My main focus these days is learning as much as
             possible about the web/computers/science beneath it and getting
-            hired to start my journey as an official frontend developer. </p> <p> I will
-            also be making another booking/game website with Node JS, Next JS
-            and TS while most likely using some sort of API’s.
+            hired to start my journey as an official frontend developer. </p> <p> I am
+            also currently making another booking/game website with Node JS, Next JS
+            and TS and will most likely be using some sort of API’s.
           </p>
         </div>
         </div>
