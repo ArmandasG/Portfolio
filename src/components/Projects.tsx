@@ -48,7 +48,7 @@ responsive, dealing with CRUD and etc...
                     <div className='md:w-[50%] flex flex-col justify-between gap-4'>
                         <h3 className='text-2xl tracking-wide'>Making My Portfolio Page</h3>
                     <p className='tracking-wide text-gray-800 max-w-[95%]'>
-                   While it was not as challenging as everything until now not considering the fact of making it look good to the eye, what is always a challenge. Considering that I have spent a reasonable amount of time with my Clothes Shop project that provided me with the experience on how to better structure my code, take different design decisions from the code and overal style perspective. I was able to finish it in a significantly shorter amount of time and am happy with the result (for now).
+                    While the task was not as complex as previous challenges, I found that creating an aesthetically pleasing site was quite challenging. Considering that I have spent a reasonable amount of time with my Clothing Shop project that provided me with the experience on how to better structure my code, take different design decisions from the code and overal style perspective. I was able to finish it in a significantly shorter amount of time and am happy with the result (for now).
                     </p>
                     <ul className='flex flex-row justify-between max-w-[90%]'>
                         <li className='cursor-default text-[#1369ab] font-bold'>Next JS</li>

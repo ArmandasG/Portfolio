@@ -35,6 +35,9 @@ window.addEventListener('scroll', handleShadow)
           <Link href="/#about">
             <li className="ml-10 text-sm uppercase transition-transform transform hover:-translate-x-0.5 hover:-translate-y-0.5 hover:text-[#1369ab]">About</li>
           </Link>
+          <Link href="/#technologies">
+            <li className="ml-10 text-sm uppercase transition-transform transform hover:-translate-x-0.5 hover:-translate-y-0.5 hover:text-[#1369ab]">Technologies</li>
+          </Link>
           {/* <Link href="/">
             <li className="ml-10 text-sm uppercase transition-transform transform hover:translate-x-0.5 hover:-translate-y-0.5">Experience</li>
           </Link> */}
