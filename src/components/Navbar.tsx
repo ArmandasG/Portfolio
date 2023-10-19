@@ -71,11 +71,13 @@ window.addEventListener('scroll', handleShadow)
 </div>
 <div className="py-4 flex flex-col">
               <ul className="uppercase">
-                <Link href='/#about'>
+                <Link onClick={handleNav} href='/#about'>
                 <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#1369ab]">About</li></Link>
-                <Link href='/#work'>
+                <Link onClick={handleNav} href='/#technologies'>
+                <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#1369ab]">Technologies</li></Link>
+                <Link onClick={handleNav} href='/#work'>
                 <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#1369ab]">Work</li></Link>
-                <Link href='/#contact'>
+                <Link onClick={handleNav} href='/#contact'>
                 <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#1369ab]">Contact</li></Link>
                 <Link href='/resume.pdf'>
                 <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#1369ab]">Resume</li></Link>
