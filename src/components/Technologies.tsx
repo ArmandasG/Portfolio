@@ -5,7 +5,7 @@ import SingleTechnology from './SingleTechnology'
 function Technologies() {
   return (
     <div id='technologies' className='w-full lg:h-screen'>
-        <div className='max-w-[1240px] sm:m-auto flex flex-col justify-center h-full mx-2'>
+        <div className='max-w-[1240px] lg:m-auto flex flex-col justify-center h-full mx-2'>
         <p className='text-xl tracking-widest uppercase'>Technologies</p>
         <h2 className='py-4'>What I Can Do</h2>
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-0 md:gap-8'>
