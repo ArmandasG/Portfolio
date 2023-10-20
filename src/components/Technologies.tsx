@@ -5,10 +5,10 @@ import SingleTechnology from './SingleTechnology'
 function Technologies() {
   return (
     <div id='technologies' className='w-full lg:h-screen'>
-        <div className='max-w-[1240px] m-auto flex flex-col justify-center h-full'>
+        <div className='max-w-[1240px] m-auto flex flex-col justify-center h-full mx-2'>
         <p className='text-xl tracking-widest uppercase'>Technologies</p>
         <h2 className='py-4'>What I Can Do</h2>
-        <div className='grid md:grid-cols-3 lg:grid-cols-3 gap-0 md:gap-8'>
+        <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-0 md:gap-8'>
 
 <SingleTechnology name='HTML' imageURL='/assets/technologies/htmlpng.png' imgWidth={74} imgHeight={54} imgAlt='htmlPng' />
 <SingleTechnology name='CSS' imageURL='/assets/technologies/csspng.png' imgWidth={54} imgHeight={54} imgAlt='cssPng' />

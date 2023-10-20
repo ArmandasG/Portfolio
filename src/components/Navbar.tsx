@@ -82,7 +82,7 @@ window.addEventListener('scroll', handleShadow)
                 <Link href='/resume.pdf'>
                 <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#1369ab]">Resume</li></Link>
               </ul>
-              <div className="pt-40">
+              <div className="sm:pt-40 pt-10">
                 <p className="uppercase tracking-widest text text-[#1369ab]">Contact me</p>
                 <div className="flex items-center gap-10 my-4 w-full sm:w-[80%]">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
