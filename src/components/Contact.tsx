@@ -14,7 +14,7 @@ function Contact() {
     <h2 className='py-4'>Get In Touch</h2>
     <div className='grid gap-8'>
     <div className='w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
-        <Image src={contactMe} alt="ContactMe" />
+        <Image className='rounded-xl' src={contactMe} alt="ContactMe" />
     <h3 className='text-3xl py-4'>Armandas Genys</h3>
     <p className='py-4'>I’m available for full-time positions. Contact me and let’s talk.</p>
     <p className='md:text-xl tracking-widest uppercase py-4'>Connect With Me</p>
