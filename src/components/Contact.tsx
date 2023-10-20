@@ -19,21 +19,21 @@ function Contact() {
     <p className='py-4'>I’m available for full-time positions. Contact me and let’s talk.</p>
     <p className='md:text-xl tracking-widest uppercase py-4'>Connect With Me</p>
     <div className='w-full flex py-4 justify-center md:justify-start gap-8'>
+    <Link href='https://www.linkedin.com/in/armandas-genys/'>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <Link href='https://www.linkedin.com/in/armandas-genys/'>
                 <FaLinkedinIn />
-                </Link>
                 </div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                </Link>
                 <Link href='https://github.com/ArmandasG'>
-                <FaGithub />
-                </Link>
-                </div>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <a href="mailto:genysarmandas@gmail.com">
-                <AiOutlineMail />
-                </a>
+                <FaGithub />
                 </div>
+                </Link>
+                <a href="mailto:genysarmandas@gmail.com">
+                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <AiOutlineMail />
+                </div>
+                </a>
         </div>
     </div>
     
