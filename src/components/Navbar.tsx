@@ -28,7 +28,7 @@ window.addEventListener('scroll', handleShadow)
     <div className={shadow ? 'fixed w-full h-34 bg-[#ecf0f3] shadow-xl z-[100]' : 'fixed w-full h-34 z-[100]'}>
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href='/'>
-        <Image src="/assets/navLogo.png" alt="logo" width='125' height='50' />
+        <Image className="md:max-w-[125px] max-w-[60px]" src="/assets/navLogo.png" alt="logo" width='125' height='50' />
         </Link>
       <div>
         <ul className="hidden md:flex items-center gap-6">
