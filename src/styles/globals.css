@@ -46,7 +46,7 @@ html {
     background-size: 100% 0.1em;
   }
 
-  .reveal {
+  /* .reveal {
     position: relative;
     transform: translateY(150px);
     opacity: 0;
@@ -56,6 +56,6 @@ html {
   .reveal.active {
     transform: translateY(0px);
     opacity: 1;
-  }
+  } */
 
 }
