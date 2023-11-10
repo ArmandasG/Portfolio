@@ -33,23 +33,23 @@ window.addEventListener('scroll', handleShadow)
       <div>
         <ul className="hidden md:flex items-center gap-6">
           <Link href="/#about">
-            <li className="ml-10 text-sm uppercase transition-transform transform hover:-translate-x-0.5 hover:-translate-y-0.5 hover:text-[#1369ab]">About</li>
+            <li className="ml-10 text-sm uppercase transition-transform transform hover:-translate-x-0.5 hover:-translate-y-0.5 hover:text-[#1369ab] cursor-pointer">About</li>
           </Link>
           <Link href="/#technologies">
-            <li className="ml-10 text-sm uppercase transition-transform transform hover:-translate-x-0.5 hover:-translate-y-0.5 hover:text-[#1369ab]">Technologies</li>
+            <li className="ml-10 text-sm uppercase transition-transform transform hover:-translate-x-0.5 hover:-translate-y-0.5 hover:text-[#1369ab] cursor-pointer">Technologies</li>
           </Link>
           {/* <Link href="/">
             <li className="ml-10 text-sm uppercase transition-transform transform hover:translate-x-0.5 hover:-translate-y-0.5">Experience</li>
           </Link> */}
           <Link href="/#work">
-            <li className="ml-10 text-sm uppercase transition-transform transform hover:-translate-x-0.5 hover:-translate-y-0.5 hover:text-[#1369ab]">Work</li>
+            <li className="ml-10 text-sm uppercase transition-transform transform hover:-translate-x-0.5 hover:-translate-y-0.5 hover:text-[#1369ab] cursor-pointer">Work</li>
           </Link>
           <Link href="/#contact">
-            <li className="ml-10 mr-10 text-sm uppercase transition-transform transform hover:-translate-x-0.5 hover:-translate-y-0.5 hover:text-[#1369ab]">Contact</li>
+            <li className="ml-10 mr-10 text-sm uppercase transition-transform transform hover:-translate-x-0.5 hover:-translate-y-0.5 hover:text-[#1369ab] cursor-pointer">Contact</li>
           </Link>
           <Link href="/resume.pdf" className="">
           <div className="bg-white border rounded">
-            <li className=" px-4 py-2 bg-[#ecf0f3] border rounded border-white text-sm uppercase transition-transform,colors transform hover:-translate-x-1 hover:-translate-y-1 hover:text-[#1369ab] duration-200">Resume</li>
+            <li className=" px-4 py-2 bg-[#ecf0f3] border rounded border-white text-sm uppercase transition-transform,colors transform hover:-translate-x-1 hover:-translate-y-1 hover:text-[#1369ab] duration-200 cursor-pointer">Resume</li>
             </div> 
           </Link>
         </ul>
@@ -72,15 +72,15 @@ window.addEventListener('scroll', handleShadow)
 <div className="py-4 flex flex-col">
               <ul className="uppercase">
                 <Link onClick={handleNav} href='/#about'>
-                <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#1369ab]">About</li></Link>
+                <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#1369ab] cursor-pointer">About</li></Link>
                 <Link onClick={handleNav} href='/#technologies'>
-                <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#1369ab]">Technologies</li></Link>
+                <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#1369ab] cursor-pointer">Technologies</li></Link>
                 <Link onClick={handleNav} href='/#work'>
-                <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#1369ab]">Work</li></Link>
+                <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#1369ab] cursor-pointer">Work</li></Link>
                 <Link onClick={handleNav} href='/#contact'>
-                <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#1369ab]">Contact</li></Link>
+                <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#1369ab] cursor-pointer">Contact</li></Link>
                 <Link href='/resume.pdf'>
-                <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#1369ab]">Resume</li></Link>
+                <li className="py-4 text-sm hover:scale-105 transition-transform transform hover:translate-x-2 hover:text-[#1369ab] cursor-pointer">Resume</li></Link>
               </ul>
               <div className="sm:pt-40 pt-10">
                 <p className="uppercase tracking-widest text text-[#1369ab]">Contact me</p>

@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 function Projects() {
   return (
-    <div id='work' className='w-full py-16'>
+    <div id='work' className='w-full py-16 reveal'>
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
             <p className='text-xl tracking-widest uppercase'>Projects</p>
             <h2 className='py-4'>What I’ve Been Working On</h2>

@@ -7,7 +7,11 @@ import Technologies from '@/components/Technologies';
 import Projects from '@/components/Projects';
 import LearningProjects from '@/components/LearningProjects';
 import Contact from '@/components/Contact';
+import { reveal } from '../functionalities/RevealOnScroll'
 
+if (typeof window !== 'undefined') {
+window.addEventListener('scroll', reveal)
+}
 
 export default function Home() {
   return (

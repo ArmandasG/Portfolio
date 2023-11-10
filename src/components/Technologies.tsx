@@ -4,7 +4,7 @@ import SingleTechnology from './SingleTechnology'
 
 function Technologies() {
   return (
-    <div id='technologies' className='w-full lg:h-screen p-2'>
+    <div id='technologies' className='w-full lg:h-screen p-2 reveal'>
         <div className='max-w-[1240px] lg:m-auto flex flex-col justify-center h-full'>
         <p className='text-xl tracking-widest uppercase'>Technologies</p>
         <h2 className='py-4'>What I Can Do</h2>
