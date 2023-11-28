@@ -16,7 +16,7 @@ function Contact() {
     <div className='w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
         <Image className='rounded-xl' src={contactMe} alt="ContactMe" />
     <h3 className='text-3xl py-4'>Armandas Genys</h3>
-    <p className='py-4'>I’m currently working at Summum Bit, UAB.</p>
+    <p className='py-4'>I’m currently working at Summum Bit, UAB as a Junior Full Stack Developer.</p>
     <p className='md:text-xl tracking-widest uppercase py-4'>Connect With Me</p>
     <div className='w-full flex py-4 justify-center md:justify-start gap-8'>
     <Link href='https://www.linkedin.com/in/armandas-genys/'>
