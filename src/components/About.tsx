@@ -26,7 +26,7 @@ function About() {
         </div>
 
                 <div className="m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-1 hover:scale-105 ease-in-out duration-300 sm:mt-0 mt-4">
-        <Image className="rounded-xl max-h-auto md:max-w-[400px] m-auto" src={myProfilePicture} alt="myProfilePicture" />
+        {/* <Image className="rounded-xl max-h-auto md:max-w-[400px] m-auto" src={myProfilePicture} alt="myProfilePicture" /> */}
         </div>
 
       </div>
