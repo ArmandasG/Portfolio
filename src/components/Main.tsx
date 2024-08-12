@@ -7,30 +7,29 @@ function Main() {
   return (
     <div id='main' className='w-full h-screen'>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
-    <div className='flex items-center flex-col gap-y-2'>
+          <div className='flex items-center flex-col gap-y-2'>
             <p className='text-sm tracking-widest text-gray-600'>Hi, my name is</p>
             <h1 className='text-gray-800'>Armandas Genys</h1>
             <h2 className='text-lg tracking-widest text-gray-500 pt-2'>Junior Full Stack Developer</h2>
             <p className='text-sm tracking-wide text-gray-800 max-w-[65%] text-center'>I’m a junior full stack developer specializing in building digital experiences. Currently, I’m focused on building web applications and am currently working full time at Summum Bit, UAB.</p>
             <div className='flex items-center gap-4 justify-between max-w-[330px] m-auto py-4'>
-            <Link href='https://www.linkedin.com/in/armandas-genys/'>
+              <Link href='https://www.linkedin.com/in/armandas-genys/'>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaLinkedinIn />
+                  <FaLinkedinIn />
                 </div>
-                </Link>
-                <Link href='https://github.com/ArmandasG'>
+              </Link>
+              <Link href='https://github.com/ArmandasG'>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaGithub />
+                  <FaGithub />
                 </div>
-                </Link>
-                <a href="mailto:genysarmandas@gmail.com">
+              </Link>
+              <a href="mailto:genysarmandas@gmail.com">
                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <AiOutlineMail />
+                  <AiOutlineMail />
                 </div>
-                </a>
-                
+              </a>
             </div>
-    </div>
+          </div>
         </div>
     </div>
   )
