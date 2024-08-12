@@ -47,7 +47,8 @@ window.addEventListener('scroll', handleShadow)
           <Link href="/#contact">
             <li className="ml-10 mr-10 text-sm uppercase transition-transform transform hover:-translate-x-0.5 hover:-translate-y-0.5 hover:text-[#1369ab] cursor-pointer">Contact</li>
           </Link>
-          <Link href="/resume.pdf" className="">
+          {/* <Link href="/resume.pdf" className=""> */}
+          <Link href="/#about" className="">
           <div className="bg-white border rounded">
             <li className=" px-4 py-2 bg-[#ecf0f3] border rounded border-white text-sm uppercase transition-transform,colors transform hover:-translate-x-1 hover:-translate-y-1 hover:text-[#1369ab] duration-200 cursor-pointer">Resume</li>
             </div> 
