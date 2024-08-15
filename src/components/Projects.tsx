@@ -48,7 +48,7 @@ function Projects() {
                     <div className='md:w-[50%] flex flex-col justify-between gap-4'>
                         <h3 className='text-2xl tracking-wide'>Making My Portfolio Page</h3>
                     <p className='tracking-wide text-gray-800 max-w-[95%]'>
-                    While the task was not as complex as previous challenges, I found that creating an aesthetically pleasing site was quite challenging. Considering that did spend a reasonable amount of time with my first projects that provided me with the experience on how to better structure my code, take different design decisions from the code and overal style perspective and am happy with the result (for now).
+                    While the task was not as complex as previous challenges, I found that creating an aesthetically pleasing site was quite challenging. Considering that I did spend a reasonable amount of time with my earlier projects that provided me with the experience on how to better structure my code, take different design decisions from the code and overal style perspective and was happy with the result.
                     </p>
                     <ul className='flex flex-row justify-between max-w-[90%]'>
                         <li className='cursor-default text-[#1369ab] font-bold'>Next JS</li>
@@ -57,6 +57,7 @@ function Projects() {
                     </ul>
                     </div>
                 </div>
+                <h2 className='py-4'>What I Am Currently Working On</h2>
                 <div className='flex flex-col md:flex-row justify-between gap-8 w-full'>
                 <div className='relative flex items-center justify-center h-auto md:w-[50%] shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#cfe2f3] to-[#cfe2f3]'>
                     <Image className='rounded-xl group-hover:opacity-10' src={workInProgressPage} alt='workInProgress' />
