@@ -10,7 +10,7 @@ function Projects() {
     <div id='work' className='w-full py-16 reveal'>
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
             <p className='text-xl tracking-widest uppercase'>Projects</p>
-            <h2 className='py-4'>What I’ve Been Working On</h2>
+            <h2 className='py-4'>My Earlier Projects</h2>
             <div className='grid gap-8'>
                 <div className='flex flex-col md:flex-row justify-between gap-8'>
                 <div className='relative flex items-center justify-center h-auto md:w-[50%] shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#cfe2f3] to-[#cfe2f3]'>
