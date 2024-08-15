@@ -20,6 +20,7 @@ function Technologies() {
           <SingleTechnology name='Node JS' imageURL='/assets/technologies/nodejspng.png' imgWidth={74} imgHeight={54} imgAlt='nodeJsPng' />
           <SingleTechnology name='php' imageURL='/assets/technologies/php.png' imgWidth={116} imgHeight={54} imgAlt='phpPng' />
           <SingleTechnology name='PrestaShop' imageURL='/assets/technologies/prestashop.png' imgWidth={64} imgHeight={64} imgAlt='prestaShopPng' />
+          <SingleTechnology name='Docker' imageURL='/assets/technologies/docker.png' imgWidth={64} imgHeight={64} imgAlt='prestaShopPng' />
         </div>
         </div>
     </div>
